@@ -5,6 +5,143 @@ body {
     box-sizing: border-box;
 }
 
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 15px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 15px;
+}
+
+.izquierda{
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-around;
+}
+.navegadores{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-left: 20px;
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+    max-width: 1000px;
+    margin: 20px 15px;
+}
+.img-productos p{
+    font-weight: bold;
+}
+.img-productos img{
+    width: 375px;
+    height: 250px;
+    margin: auto 10px;
+}
+span{
+    color: #1E1E1E80;
+    display: flex;
+    justify-content: center;
+}
+.img-productos p, span{
+    text-align: center;
+
+}
+
+.boton{
+    text-decoration: none;
+    background-color: #FBA01B;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.img-madera{
+    margin-top: 20px;
+}
+.icn-nosotros{
+    width: 96px;
+    height: 96px;
+}
+.sobre-nosotros{
+    text-align: center;
+    margin: 30px 25px;
+}
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .categorias {
+    background-color: #FBA01B;
+    padding-bottom: 25px;
+  }
+
+  .box {
+    height: 200px;
+    border-radius: 25px;
+    margin: 25px;
+    position: relative;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .text {
+    margin: 25px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .button {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+.img-negocio img{
+    width: 250px;
+    height: 250px;
+}
+
 .row {
     display: flex;
     justify-content: space-around;
@@ -26,3 +163,35 @@ body {
 }
 
 
+footer {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  .contacto {
+    background-color: #F7943F;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contacto p {
+    margin: 0;
+  }
+  
+  .iconos {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .iconos img {
+    width: 40px;
+    height: 40px;
+  }
+  .derechos {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
