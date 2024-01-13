@@ -4,6 +4,9 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+h1,h2,h3,p,b{
+  font-family: Poppinsm, Arial, Helvetica, sans-serif;
+}
 
 .contenedor{
     display: flex;
@@ -161,12 +164,18 @@ span{
 
 
 footer {
+    background-color: #F7943F;
     width: 100%;
     font-family: Arial, sans-serif;
     font-size: 16px;
+
+  }
+  .logo-f{
+    display: flex;
+    justify-content: center;
+    
   }
   .contacto {
-    background-color: #F7943F;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -308,3 +317,29 @@ footer {
     border-right: 1px solid white;
   }
 }
+
+.centrar{
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  text-align: center;
+}
+
+.separados {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.business-card {
+  background-color: #D9D9D9;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 1200px; /* Ajusta el ancho máximo según tus preferencias */
+  margin-bottom: 10px;
+}
+
